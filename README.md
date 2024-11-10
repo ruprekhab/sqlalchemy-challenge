@@ -58,10 +58,10 @@ This folder holds the primary data files used in the analysis and Flask API:
 * climate_starter.ipynb: A Jupyter Notebook that contains the Python code for performing the climate analysis.
 
 ## Technologies and Tools Used:
-Programming Languages: Python
-Libraries: Pandas, NumPy, Matplotlib, SQLAlchemy, Flask
-Database: SQLite
-Development Environemnt: Jupyter Notebook, Visual Studio Code
+* Programming Languages: Python
+* Libraries: Pandas, NumPy, Matplotlib, SQLAlchemy, Flask
+* Database: SQLite
+* Development Environemnt: Jupyter Notebook, Visual Studio Code
 
 
 

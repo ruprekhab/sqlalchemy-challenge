@@ -42,7 +42,7 @@ Available Routes
     * Queries the dates and temperature observations of the most-active station for the last 12 months.
     * Returns the results as a JSON list.
 * /api/v1.0/<start> and /api/v1.0/<start>/<end>:
-    * Returns a JSON list of the minimum, average, and maximum temperatures for a specified date range.
+    * Returns a JSON list of the minimum, average, and maximum temperatures for a specified date range. The date format accepted is YYYY-MM-DD. 
     * For a start date, calculates TMIN, TAVG, and TMAX for all dates greater than or equal to the start date.
     * For a start and end date, calculates TMIN, TAVG, and TMAX for dates within the range, inclusive.
 
@@ -61,10 +61,10 @@ This folder holds the primary data files used in the analysis and Flask API:
 * climate_starter.ipynb: A Jupyter Notebook that contains the Python code for performing the climate analysis.
 
 ## Technologies and Tools Used:
-Programming Languages: Python
-Libraries: Pandas, NumPy, Matplotlib, SQLAlchemy, Flask
-Database: SQLite
-Development Environemnt: Jupyter Notebook, Visual Studio Code
+* Programming Languages: Python
+* Libraries: Pandas, NumPy, Matplotlib, SQLAlchemy, Flask
+* Database: SQLite
+* Development Environemnt: Jupyter Notebook, Visual Studio Code
 
 
 

@@ -16,11 +16,14 @@ In this part, Python, SQLAlchemy ORM, Pandas, and Matplotlib are employed to per
 * The DataFrame is sorted by date and visualized using the plot method.
 * Summary statistics for the precipitation data are printed using Pandas.
 
+![Alt text](images/bar.png)
+
 ### Station Analysis
 * A query is designed to calculate the total number of stations in the dataset.
 * Another query identifies the most active station by determining which station has the highest number of observations(that is, highest number of rows). 
 * A query calculates the minimum, maximum, and average temperatures for the most active station.
 * Temperature observation data (TOBS) for the previous 12 months is queried and plotted as a histogram.
+![Alt text](images/histogram.png)
 
 ## Part2: Development of Climate App
 A Flask API based on the climate analysis have been developed. The API endpoints are as follows:
